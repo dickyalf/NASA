@@ -1,38 +1,35 @@
 //
-//  FirstOnBoardingView.swift
+//  SecondOnBoardingView.swift
 //  NASA
 //
-//  Created by MacBook Pro on 23/05/24.
+//  Created by MacBook Pro on 24/05/24.
 //
 
 import SwiftUI
-import Foundation
 
-struct FirstOnBoardingView: View {
-    
+struct SecondOnBoardingView: View {
     var body: some View {
         VStack{
             Spacer()
             ZStack {
-                Image("Traveling_World")
+                Image("Transfer")
                     .resizable()
-                .frame(width: 300, height: 225)
+                .frame(width: 300, height: 300)
             }
-            .frame(height: 300)
             Spacer()
             VStack(spacing: 20) {
-                Text("Pilih Lokasi Liburan")
+                Text("Atur Anggaran")
                     .font(.title)
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                Text("Tentukan Lokasi Liburan dan Temukan Rekomendasi Destinasi Wisata")
+                Text("Buat Liburan Anda Menyenangkan dengan Anggaran yang Ramah di Kantong")
                     .multilineTextAlignment(.center)
                 .lineSpacing(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
             }
             
             Spacer()
             HStack(spacing:15) {
-                CircleProgress(currentProgress: true)
                 CircleProgress(currentProgress: false)
+                CircleProgress(currentProgress: true)
                 CircleProgress(currentProgress: false)
             }
             
@@ -68,5 +65,5 @@ struct FirstOnBoardingView: View {
 }
 
 #Preview {
-    FirstOnBoardingView()
+    SecondOnBoardingView()
 }

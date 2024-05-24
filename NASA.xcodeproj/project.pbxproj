@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		043904FC2BFF8BBA00630126 /* FirstOnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043904FB2BFF8BBA00630126 /* FirstOnBoardingView.swift */; };
 		0496DF602C00BC25005BB084 /* CircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496DF5F2C00BC25005BB084 /* CircleProgress.swift */; };
+		04D950F02C00BE3D004B68F0 /* SecondOnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D950EF2C00BE3D004B68F0 /* SecondOnBoardingView.swift */; };
 		58BDE19E2BF6E3DF00CF74B6 /* NASAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE19D2BF6E3DF00CF74B6 /* NASAApp.swift */; };
 		58BDE1A02BF6E3DF00CF74B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE19F2BF6E3DF00CF74B6 /* ContentView.swift */; };
 		58BDE1A22BF6E3DF00CF74B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE1A12BF6E3DF00CF74B6 /* Item.swift */; };
@@ -20,6 +21,7 @@
 		043904FB2BFF8BBA00630126 /* FirstOnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingView.swift; sourceTree = "<group>"; };
 		045A013A2C005D9A00FA0BA3 /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
 		0496DF5F2C00BC25005BB084 /* CircleProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgress.swift; sourceTree = "<group>"; };
+		04D950EF2C00BE3D004B68F0 /* SecondOnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnBoardingView.swift; sourceTree = "<group>"; };
 		58BDE19A2BF6E3DF00CF74B6 /* NASA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BDE19D2BF6E3DF00CF74B6 /* NASAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAApp.swift; sourceTree = "<group>"; };
 		58BDE19F2BF6E3DF00CF74B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				043904FB2BFF8BBA00630126 /* FirstOnBoardingView.swift */,
+				04D950EF2C00BE3D004B68F0 /* SecondOnBoardingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				043904FC2BFF8BBA00630126 /* FirstOnBoardingView.swift in Sources */,
 				58BDE19E2BF6E3DF00CF74B6 /* NASAApp.swift in Sources */,
 				0496DF602C00BC25005BB084 /* CircleProgress.swift in Sources */,
+				04D950F02C00BE3D004B68F0 /* SecondOnBoardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
