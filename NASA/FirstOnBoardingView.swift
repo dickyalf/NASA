@@ -9,6 +9,7 @@ import SwiftUI
 import Foundation
 
 struct FirstOnBoardingView: View {
+    
     var body: some View {
         VStack{
             Image("Travel_World")
