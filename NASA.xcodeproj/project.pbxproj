@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04360A982C06E78D00688A73 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04360A972C06E78D00688A73 /* SearchView.swift */; };
+		04D5012B2C07216700D077B9 /* SearchViewiPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5012A2C07216700D077B9 /* SearchViewiPad.swift */; };
 		58BDE19E2BF6E3DF00CF74B6 /* NASAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE19D2BF6E3DF00CF74B6 /* NASAApp.swift */; };
 		58BDE1A02BF6E3DF00CF74B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE19F2BF6E3DF00CF74B6 /* ContentView.swift */; };
 		58BDE1A22BF6E3DF00CF74B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE1A12BF6E3DF00CF74B6 /* Item.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		04360A972C06E78D00688A73 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		04D5012A2C07216700D077B9 /* SearchViewiPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewiPad.swift; sourceTree = "<group>"; };
 		58BDE19A2BF6E3DF00CF74B6 /* NASA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BDE19D2BF6E3DF00CF74B6 /* NASAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAApp.swift; sourceTree = "<group>"; };
 		58BDE19F2BF6E3DF00CF74B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				58BDE1A32BF6E3E200CF74B6 /* Assets.xcassets */,
 				58BDE1A52BF6E3E200CF74B6 /* Preview Content */,
 				04360A972C06E78D00688A73 /* SearchView.swift */,
+				04D5012A2C07216700D077B9 /* SearchViewiPad.swift */,
 			);
 			path = NASA;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D5012B2C07216700D077B9 /* SearchViewiPad.swift in Sources */,
 				04360A982C06E78D00688A73 /* SearchView.swift in Sources */,
 				58BDE1A02BF6E3DF00CF74B6 /* ContentView.swift in Sources */,
 				58BDE1A22BF6E3DF00CF74B6 /* Item.swift in Sources */,
