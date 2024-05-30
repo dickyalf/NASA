@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54A9987B2C0088FC00784A6C /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A9987A2C0088FC00784A6C /* IntroScreen.swift */; };
+		54CAB11D2C08F61500A34C4C /* MacNASAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CAB11C2C08F61500A34C4C /* MacNASAApp.swift */; };
+		54CAB11F2C08F61500A34C4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CAB11E2C08F61500A34C4C /* ContentView.swift */; };
+		54CAB1212C08F61700A34C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CAB1202C08F61700A34C4C /* Assets.xcassets */; };
+		54CAB1242C08F61700A34C4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CAB1232C08F61700A34C4C /* Preview Assets.xcassets */; };
+		54CAB12A2C08F65F00A34C4C /* IntroScreenMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CAB1292C08F65F00A34C4C /* IntroScreenMac.swift */; };
 		58BDE19E2BF6E3DF00CF74B6 /* NASAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE19D2BF6E3DF00CF74B6 /* NASAApp.swift */; };
 		58BDE1A02BF6E3DF00CF74B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE19F2BF6E3DF00CF74B6 /* ContentView.swift */; };
 		58BDE1A22BF6E3DF00CF74B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE1A12BF6E3DF00CF74B6 /* Item.swift */; };
@@ -15,6 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54A9987A2C0088FC00784A6C /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
+		54CAB11A2C08F61500A34C4C /* MacNASA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacNASA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54CAB11C2C08F61500A34C4C /* MacNASAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacNASAApp.swift; sourceTree = "<group>"; };
+		54CAB11E2C08F61500A34C4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54CAB1202C08F61700A34C4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54CAB1232C08F61700A34C4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54CAB1252C08F61700A34C4C /* MacNASA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacNASA.entitlements; sourceTree = "<group>"; };
+		54CAB1292C08F65F00A34C4C /* IntroScreenMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenMac.swift; sourceTree = "<group>"; };
 		58BDE19A2BF6E3DF00CF74B6 /* NASA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BDE19D2BF6E3DF00CF74B6 /* NASAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAApp.swift; sourceTree = "<group>"; };
 		58BDE19F2BF6E3DF00CF74B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +38,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		54CAB1172C08F61500A34C4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58BDE1972BF6E3DF00CF74B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -34,10 +55,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54CAB11B2C08F61500A34C4C /* MacNASA */ = {
+			isa = PBXGroup;
+			children = (
+				54CAB11C2C08F61500A34C4C /* MacNASAApp.swift */,
+				54CAB11E2C08F61500A34C4C /* ContentView.swift */,
+				54CAB1292C08F65F00A34C4C /* IntroScreenMac.swift */,
+				54CAB1202C08F61700A34C4C /* Assets.xcassets */,
+				54CAB1252C08F61700A34C4C /* MacNASA.entitlements */,
+				54CAB1222C08F61700A34C4C /* Preview Content */,
+			);
+			path = MacNASA;
+			sourceTree = "<group>";
+		};
+		54CAB1222C08F61700A34C4C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				54CAB1232C08F61700A34C4C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		58BDE1912BF6E3DF00CF74B6 = {
 			isa = PBXGroup;
 			children = (
 				58BDE19C2BF6E3DF00CF74B6 /* NASA */,
+				54CAB11B2C08F61500A34C4C /* MacNASA */,
 				58BDE19B2BF6E3DF00CF74B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				58BDE19A2BF6E3DF00CF74B6 /* NASA.app */,
+				54CAB11A2C08F61500A34C4C /* MacNASA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +97,7 @@
 		58BDE19C2BF6E3DF00CF74B6 /* NASA */ = {
 			isa = PBXGroup;
 			children = (
+				54A9987A2C0088FC00784A6C /* IntroScreen.swift */,
 				58BDE19D2BF6E3DF00CF74B6 /* NASAApp.swift */,
 				58BDE19F2BF6E3DF00CF74B6 /* ContentView.swift */,
 				58BDE1A12BF6E3DF00CF74B6 /* Item.swift */,
@@ -73,6 +118,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		54CAB1192C08F61500A34C4C /* MacNASA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54CAB1262C08F61700A34C4C /* Build configuration list for PBXNativeTarget "MacNASA" */;
+			buildPhases = (
+				54CAB1162C08F61500A34C4C /* Sources */,
+				54CAB1172C08F61500A34C4C /* Frameworks */,
+				54CAB1182C08F61500A34C4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacNASA;
+			productName = MacNASA;
+			productReference = 54CAB11A2C08F61500A34C4C /* MacNASA.app */;
+			productType = "com.apple.product-type.application";
+		};
 		58BDE1992BF6E3DF00CF74B6 /* NASA */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58BDE1AA2BF6E3E200CF74B6 /* Build configuration list for PBXNativeTarget "NASA" */;
@@ -97,9 +159,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					54CAB1192C08F61500A34C4C = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					58BDE1992BF6E3DF00CF74B6 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -119,11 +184,21 @@
 			projectRoot = "";
 			targets = (
 				58BDE1992BF6E3DF00CF74B6 /* NASA */,
+				54CAB1192C08F61500A34C4C /* MacNASA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		54CAB1182C08F61500A34C4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CAB1242C08F61700A34C4C /* Preview Assets.xcassets in Resources */,
+				54CAB1212C08F61700A34C4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58BDE1982BF6E3DF00CF74B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -136,10 +211,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		54CAB1162C08F61500A34C4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CAB11F2C08F61500A34C4C /* ContentView.swift in Sources */,
+				54CAB11D2C08F61500A34C4C /* MacNASAApp.swift in Sources */,
+				54CAB12A2C08F65F00A34C4C /* IntroScreenMac.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58BDE1962BF6E3DF00CF74B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A9987B2C0088FC00784A6C /* IntroScreen.swift in Sources */,
 				58BDE1A02BF6E3DF00CF74B6 /* ContentView.swift in Sources */,
 				58BDE1A22BF6E3DF00CF74B6 /* Item.swift in Sources */,
 				58BDE19E2BF6E3DF00CF74B6 /* NASAApp.swift in Sources */,
@@ -149,6 +235,64 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		54CAB1272C08F61700A34C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacNASA/MacNASA.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacNASA/Preview Content\"";
+				DEVELOPMENT_TEAM = 539H59P7B7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAD.MacNASA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		54CAB1282C08F61700A34C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacNASA/MacNASA.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacNASA/Preview Content\"";
+				DEVELOPMENT_TEAM = 539H59P7B7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAD.MacNASA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		58BDE1A82BF6E3E200CF74B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -276,6 +420,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NASA/Preview Content\"";
+				DEVELOPMENT_TEAM = 539H59P7B7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NASA/Preview Content\"";
+				DEVELOPMENT_TEAM = 539H59P7B7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -327,6 +473,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		54CAB1262C08F61700A34C4C /* Build configuration list for PBXNativeTarget "MacNASA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54CAB1272C08F61700A34C4C /* Debug */,
+				54CAB1282C08F61700A34C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		58BDE1952BF6E3DF00CF74B6 /* Build configuration list for PBXProject "NASA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
