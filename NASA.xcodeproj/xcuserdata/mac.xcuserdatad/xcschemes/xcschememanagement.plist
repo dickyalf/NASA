@@ -4,23 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>NASA.xcscheme_^#shared#^_</key>
+		<key>Mac.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>NASAMac.xcscheme_^#shared#^_</key>
+		<key>MacPreview.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>NASA.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
-		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>58BDE1992BF6E3DF00CF74B6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
 		</dict>
 	</dict>
 </dict>
