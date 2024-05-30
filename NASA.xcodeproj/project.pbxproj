@@ -7,20 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58A60F642C0089D60033A0F5 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A60F632C0089D60033A0F5 /* HomeScreen.swift */; };
 		58BDE19E2BF6E3DF00CF74B6 /* NASAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE19D2BF6E3DF00CF74B6 /* NASAApp.swift */; };
 		58BDE1A02BF6E3DF00CF74B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE19F2BF6E3DF00CF74B6 /* ContentView.swift */; };
 		58BDE1A22BF6E3DF00CF74B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE1A12BF6E3DF00CF74B6 /* Item.swift */; };
 		58BDE1A42BF6E3E200CF74B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58BDE1A32BF6E3E200CF74B6 /* Assets.xcassets */; };
 		58BDE1A72BF6E3E200CF74B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58BDE1A62BF6E3E200CF74B6 /* Preview Assets.xcassets */; };
+		987F89D42C0AE3470031158A /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F89D32C0AE3470031158A /* IntroScreen.swift */; };
+		987F89D62C0AE43D0031158A /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F89D52C0AE43D0031158A /* OnBoardingView.swift */; };
+		987F89DC2C0AF1AA0031158A /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F89DB2C0AF1AA0031158A /* Screen.swift */; };
+		987F89DE2C0AF2FF0031158A /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F89DD2C0AF2FF0031158A /* SplashScreen.swift */; };
+		987F89E02C0AFD9A0031158A /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F89DF2C0AFD9A0031158A /* SearchScreen.swift */; };
+		987F89E42C0E0E8B0031158A /* HomeNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F89E32C0E0E8B0031158A /* HomeNavigation.swift */; };
+		987F89E62C0E10580031158A /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F89E52C0E10580031158A /* ResultScreen.swift */; };
+		987F89E92C0E16020031158A /* HTMLStringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F89E82C0E16010031158A /* HTMLStringView.swift */; };
+		987F89EC2C0E1A340031158A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F89EB2C0E1A340031158A /* Toast.swift */; };
+		987F89EE2C0E1A6A0031158A /* ToastStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F89ED2C0E1A6A0031158A /* ToastStyle.swift */; };
+		987F89F02C0E1A940031158A /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F89EF2C0E1A940031158A /* ToastView.swift */; };
+		987F89F22C0E1ABC0031158A /* ToastModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F89F12C0E1ABC0031158A /* ToastModifier.swift */; };
+		987F89F42C0E1AF20031158A /* ExtensionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F89F32C0E1AF20031158A /* ExtensionHelper.swift */; };
+		98A6AF842C12484500E9CBEE /* ExportPDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6AF832C12484500E9CBEE /* ExportPDFView.swift */; };
+		98A6AF8A2C1256FB00E9CBEE /* PopularLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6AF892C1256FB00E9CBEE /* PopularLocationView.swift */; };
+		98A6AF8C2C12696B00E9CBEE /* Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6AF8B2C12696B00E9CBEE /* Mac.swift */; };
+		98A6AF8E2C12773400E9CBEE /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6AF8D2C12773400E9CBEE /* Location.swift */; };
+		98A6AF902C12775200E9CBEE /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6AF8F2C12775200E9CBEE /* Review.swift */; };
+		98AB43AE2C0E324C00C6B929 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB43AD2C0E324C00C6B929 /* DataViewModel.swift */; };
+		98AB43B22C0E336E00C6B929 /* ChatGPTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB43B12C0E336E00C6B929 /* ChatGPTService.swift */; };
+		98AB43B42C0E36D600C6B929 /* RecommendationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB43B32C0E36D600C6B929 /* RecommendationModel.swift */; };
+		98AB43B62C0E374100C6B929 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB43B52C0E374100C6B929 /* RequestModel.swift */; };
+		98AB43B82C0E37F400C6B929 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB43B72C0E37F400C6B929 /* HistoryModel.swift */; };
+		98AB43BB2C0E399000C6B929 /* RecommendationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB43BA2C0E399000C6B929 /* RecommendationRepository.swift */; };
+		98AB43BF2C0E420400C6B929 /* NasaModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98AB43BD2C0E420400C6B929 /* NasaModel.xcdatamodeld */; };
+		98AB43C12C0E431A00C6B929 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB43C02C0E431A00C6B929 /* PersistenceController.swift */; };
+		98AB43C82C0F937100C6B929 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB43C72C0F937100C6B929 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58A60F632C0089D60033A0F5 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		58BDE19A2BF6E3DF00CF74B6 /* NASA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BDE19D2BF6E3DF00CF74B6 /* NASAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAApp.swift; sourceTree = "<group>"; };
 		58BDE19F2BF6E3DF00CF74B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58BDE1A12BF6E3DF00CF74B6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		58BDE1A32BF6E3E200CF74B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58BDE1A62BF6E3E200CF74B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		987F89D32C0AE3470031158A /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
+		987F89D52C0AE43D0031158A /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		987F89DB2C0AF1AA0031158A /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		987F89DD2C0AF2FF0031158A /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		987F89DF2C0AFD9A0031158A /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		987F89E32C0E0E8B0031158A /* HomeNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigation.swift; sourceTree = "<group>"; };
+		987F89E52C0E10580031158A /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
+		987F89E82C0E16010031158A /* HTMLStringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLStringView.swift; sourceTree = "<group>"; };
+		987F89EB2C0E1A340031158A /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		987F89ED2C0E1A6A0031158A /* ToastStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastStyle.swift; sourceTree = "<group>"; };
+		987F89EF2C0E1A940031158A /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		987F89F12C0E1ABC0031158A /* ToastModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastModifier.swift; sourceTree = "<group>"; };
+		987F89F32C0E1AF20031158A /* ExtensionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHelper.swift; sourceTree = "<group>"; };
+		98A6AF832C12484500E9CBEE /* ExportPDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportPDFView.swift; sourceTree = "<group>"; };
+		98A6AF892C1256FB00E9CBEE /* PopularLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularLocationView.swift; sourceTree = "<group>"; };
+		98A6AF8B2C12696B00E9CBEE /* Mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac.swift; sourceTree = "<group>"; };
+		98A6AF8D2C12773400E9CBEE /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		98A6AF8F2C12775200E9CBEE /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		98AB43AD2C0E324C00C6B929 /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		98AB43B12C0E336E00C6B929 /* ChatGPTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTService.swift; sourceTree = "<group>"; };
+		98AB43B32C0E36D600C6B929 /* RecommendationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationModel.swift; sourceTree = "<group>"; };
+		98AB43B52C0E374100C6B929 /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		98AB43B72C0E37F400C6B929 /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		98AB43BA2C0E399000C6B929 /* RecommendationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationRepository.swift; sourceTree = "<group>"; };
+		98AB43BE2C0E420400C6B929 /* NasaModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NasaModel.xcdatamodel; sourceTree = "<group>"; };
+		98AB43C02C0E431A00C6B929 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		98AB43C62C0F92B400C6B929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		98AB43C72C0F937100C6B929 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +110,15 @@
 		58BDE19C2BF6E3DF00CF74B6 /* NASA */ = {
 			isa = PBXGroup;
 			children = (
-				58BDE19D2BF6E3DF00CF74B6 /* NASAApp.swift */,
-				58BDE19F2BF6E3DF00CF74B6 /* ContentView.swift */,
+				98AB43C62C0F92B400C6B929 /* Info.plist */,
+				98AB43BC2C0E41F300C6B929 /* History */,
+				98AB43B92C0E398200C6B929 /* Repository */,
+				98AB43B02C0E335D00C6B929 /* Service */,
+				98AB43AF2C0E334C00C6B929 /* Model */,
+				987F89E72C0E15F20031158A /* Utils */,
+				98AB43AC2C0E322E00C6B929 /* ViewModel */,
+				987F89D92C0AEB620031158A /* System */,
+				987F89D22C0AE3100031158A /* UI */,
 				58BDE1A12BF6E3DF00CF74B6 /* Item.swift */,
 				58BDE1A32BF6E3E200CF74B6 /* Assets.xcassets */,
 				58BDE1A52BF6E3E200CF74B6 /* Preview Content */,
@@ -68,6 +132,108 @@
 				58BDE1A62BF6E3E200CF74B6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		987F89D22C0AE3100031158A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				58BDE19F2BF6E3DF00CF74B6 /* ContentView.swift */,
+				987F89DA2C0AEC3A0031158A /* Screen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		987F89D92C0AEB620031158A /* System */ = {
+			isa = PBXGroup;
+			children = (
+				58BDE19D2BF6E3DF00CF74B6 /* NASAApp.swift */,
+				987F89DB2C0AF1AA0031158A /* Screen.swift */,
+				98AB43C02C0E431A00C6B929 /* PersistenceController.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		987F89DA2C0AEC3A0031158A /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				58A60F632C0089D60033A0F5 /* HomeScreen.swift */,
+				987F89D32C0AE3470031158A /* IntroScreen.swift */,
+				987F89D52C0AE43D0031158A /* OnBoardingView.swift */,
+				987F89DD2C0AF2FF0031158A /* SplashScreen.swift */,
+				987F89DF2C0AFD9A0031158A /* SearchScreen.swift */,
+				987F89E32C0E0E8B0031158A /* HomeNavigation.swift */,
+				987F89E52C0E10580031158A /* ResultScreen.swift */,
+				98A6AF892C1256FB00E9CBEE /* PopularLocationView.swift */,
+				98A6AF8B2C12696B00E9CBEE /* Mac.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		987F89E72C0E15F20031158A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				987F89EA2C0E1A2B0031158A /* Toast */,
+				987F89E82C0E16010031158A /* HTMLStringView.swift */,
+				987F89F32C0E1AF20031158A /* ExtensionHelper.swift */,
+				98AB43C72C0F937100C6B929 /* LocationManager.swift */,
+				98A6AF832C12484500E9CBEE /* ExportPDFView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		987F89EA2C0E1A2B0031158A /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				987F89EB2C0E1A340031158A /* Toast.swift */,
+				987F89ED2C0E1A6A0031158A /* ToastStyle.swift */,
+				987F89EF2C0E1A940031158A /* ToastView.swift */,
+				987F89F12C0E1ABC0031158A /* ToastModifier.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		98AB43AC2C0E322E00C6B929 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				98AB43AD2C0E324C00C6B929 /* DataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		98AB43AF2C0E334C00C6B929 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98AB43B32C0E36D600C6B929 /* RecommendationModel.swift */,
+				98AB43B52C0E374100C6B929 /* RequestModel.swift */,
+				98AB43B72C0E37F400C6B929 /* HistoryModel.swift */,
+				98A6AF8D2C12773400E9CBEE /* Location.swift */,
+				98A6AF8F2C12775200E9CBEE /* Review.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98AB43B02C0E335D00C6B929 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				98AB43B12C0E336E00C6B929 /* ChatGPTService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		98AB43B92C0E398200C6B929 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				98AB43BA2C0E399000C6B929 /* RecommendationRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		98AB43BC2C0E41F300C6B929 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				98AB43BD2C0E420400C6B929 /* NasaModel.xcdatamodeld */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +306,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				987F89F02C0E1A940031158A /* ToastView.swift in Sources */,
+				987F89DE2C0AF2FF0031158A /* SplashScreen.swift in Sources */,
+				987F89E02C0AFD9A0031158A /* SearchScreen.swift in Sources */,
+				98AB43B42C0E36D600C6B929 /* RecommendationModel.swift in Sources */,
+				98AB43AE2C0E324C00C6B929 /* DataViewModel.swift in Sources */,
 				58BDE1A02BF6E3DF00CF74B6 /* ContentView.swift in Sources */,
+				98AB43B62C0E374100C6B929 /* RequestModel.swift in Sources */,
+				987F89E62C0E10580031158A /* ResultScreen.swift in Sources */,
+				987F89D62C0AE43D0031158A /* OnBoardingView.swift in Sources */,
 				58BDE1A22BF6E3DF00CF74B6 /* Item.swift in Sources */,
+				987F89F22C0E1ABC0031158A /* ToastModifier.swift in Sources */,
+				58A60F642C0089D60033A0F5 /* HomeScreen.swift in Sources */,
+				987F89E92C0E16020031158A /* HTMLStringView.swift in Sources */,
+				98AB43BB2C0E399000C6B929 /* RecommendationRepository.swift in Sources */,
+				98AB43B82C0E37F400C6B929 /* HistoryModel.swift in Sources */,
+				987F89F42C0E1AF20031158A /* ExtensionHelper.swift in Sources */,
+				98A6AF842C12484500E9CBEE /* ExportPDFView.swift in Sources */,
+				98A6AF8A2C1256FB00E9CBEE /* PopularLocationView.swift in Sources */,
+				987F89D42C0AE3470031158A /* IntroScreen.swift in Sources */,
+				987F89EE2C0E1A6A0031158A /* ToastStyle.swift in Sources */,
 				58BDE19E2BF6E3DF00CF74B6 /* NASAApp.swift in Sources */,
+				987F89DC2C0AF1AA0031158A /* Screen.swift in Sources */,
+				987F89E42C0E0E8B0031158A /* HomeNavigation.swift in Sources */,
+				98AB43BF2C0E420400C6B929 /* NasaModel.xcdatamodeld in Sources */,
+				98A6AF902C12775200E9CBEE /* Review.swift in Sources */,
+				98A6AF8C2C12696B00E9CBEE /* Mac.swift in Sources */,
+				98AB43C82C0F937100C6B929 /* LocationManager.swift in Sources */,
+				98AB43C12C0E431A00C6B929 /* PersistenceController.swift in Sources */,
+				98A6AF8E2C12773400E9CBEE /* Location.swift in Sources */,
+				987F89EC2C0E1A340031158A /* Toast.swift in Sources */,
+				98AB43B22C0E336E00C6B929 /* ChatGPTService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -258,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -276,19 +470,27 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NASA/Preview Content\"";
+				DEVELOPMENT_TEAM = 25JZ7W535H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NASA/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NASA;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Required location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Required location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MAD.NASA;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uc.nasa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -304,19 +506,27 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NASA/Preview Content\"";
+				DEVELOPMENT_TEAM = 25JZ7W535H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NASA/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NASA;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Required location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Required location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MAD.NASA;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uc.nasa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,6 +556,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98AB43BD2C0E420400C6B929 /* NasaModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98AB43BE2C0E420400C6B929 /* NasaModel.xcdatamodel */,
+			);
+			currentVersion = 98AB43BE2C0E420400C6B929 /* NasaModel.xcdatamodel */;
+			path = NasaModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 58BDE1922BF6E3DF00CF74B6 /* Project object */;
 }
