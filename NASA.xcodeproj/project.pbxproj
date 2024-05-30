@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0496DF602C00BC25005BB084 /* CircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496DF5F2C00BC25005BB084 /* CircleProgress.swift */; };
 		04BCD9AD2C05984B0083BD90 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BCD9AC2C05984B0083BD90 /* OnBoardingView.swift */; };
 		04BCD9E32C05BEF60083BD90 /* NASAMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BCD9E22C05BEF60083BD90 /* NASAMacApp.swift */; };
 		04BCD9E52C05BEF60083BD90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BCD9E42C05BEF60083BD90 /* ContentView.swift */; };
 		04BCD9E72C05BEF90083BD90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BCD9E62C05BEF90083BD90 /* Assets.xcassets */; };
 		04BCD9EA2C05BEF90083BD90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BCD9E92C05BEF90083BD90 /* Preview Assets.xcassets */; };
+		04D540C92C071C5900EAC621 /* OnBoardingMacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D540C82C071C5900EAC621 /* OnBoardingMacView.swift */; };
 		58BDE19E2BF6E3DF00CF74B6 /* NASAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE19D2BF6E3DF00CF74B6 /* NASAApp.swift */; };
 		58BDE1A02BF6E3DF00CF74B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE19F2BF6E3DF00CF74B6 /* ContentView.swift */; };
 		58BDE1A22BF6E3DF00CF74B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDE1A12BF6E3DF00CF74B6 /* Item.swift */; };
@@ -21,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0496DF5F2C00BC25005BB084 /* CircleProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgress.swift; sourceTree = "<group>"; };
 		04BCD9AC2C05984B0083BD90 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		04BCD9E02C05BEF60083BD90 /* NASAMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASAMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BCD9E22C05BEF60083BD90 /* NASAMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAMacApp.swift; sourceTree = "<group>"; };
@@ -29,6 +28,7 @@
 		04BCD9E62C05BEF90083BD90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BCD9E92C05BEF90083BD90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04BCD9EB2C05BEF90083BD90 /* NASAMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NASAMac.entitlements; sourceTree = "<group>"; };
+		04D540C82C071C5900EAC621 /* OnBoardingMacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingMacView.swift; sourceTree = "<group>"; };
 		58BDE19A2BF6E3DF00CF74B6 /* NASA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BDE19D2BF6E3DF00CF74B6 /* NASAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAApp.swift; sourceTree = "<group>"; };
 		58BDE19F2BF6E3DF00CF74B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,14 +55,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0496DF5E2C00BBFF005BB084 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				0496DF5F2C00BC25005BB084 /* CircleProgress.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
 		0496DF612C00BCA2005BB084 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +66,7 @@
 		04BCD9E12C05BEF60083BD90 /* NASAMac */ = {
 			isa = PBXGroup;
 			children = (
+				04D540C72C071C2200EAC621 /* Views */,
 				04BCD9E22C05BEF60083BD90 /* NASAMacApp.swift */,
 				04BCD9E42C05BEF60083BD90 /* ContentView.swift */,
 				04BCD9E62C05BEF90083BD90 /* Assets.xcassets */,
@@ -89,6 +82,14 @@
 				04BCD9E92C05BEF90083BD90 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04D540C72C071C2200EAC621 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04D540C82C071C5900EAC621 /* OnBoardingMacView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		58BDE1912BF6E3DF00CF74B6 = {
@@ -113,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				0496DF612C00BCA2005BB084 /* Views */,
-				0496DF5E2C00BBFF005BB084 /* Components */,
 				58BDE19D2BF6E3DF00CF74B6 /* NASAApp.swift */,
 				58BDE19F2BF6E3DF00CF74B6 /* ContentView.swift */,
 				58BDE1A12BF6E3DF00CF74B6 /* Item.swift */,
@@ -231,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D540C92C071C5900EAC621 /* OnBoardingMacView.swift in Sources */,
 				04BCD9E52C05BEF60083BD90 /* ContentView.swift in Sources */,
 				04BCD9E32C05BEF60083BD90 /* NASAMacApp.swift in Sources */,
 			);
@@ -244,7 +245,6 @@
 				58BDE1A22BF6E3DF00CF74B6 /* Item.swift in Sources */,
 				58BDE19E2BF6E3DF00CF74B6 /* NASAApp.swift in Sources */,
 				04BCD9AD2C05984B0083BD90 /* OnBoardingView.swift in Sources */,
-				0496DF602C00BC25005BB084 /* CircleProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
