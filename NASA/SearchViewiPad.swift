@@ -118,10 +118,20 @@ struct SearchViewiPad: View {
                         .shadow(radius: 1)
                     
                     VStack(alignment: .leading) {
-                        Text("Bali (3 hari 2 malam)")
-                            .font(.system(size: 32))
-                            .fontWeight(.bold)
-                            .padding([.bottom], 2)
+                        HStack {
+                            Text("Bali (3 hari 2 malam)")
+                                .font(.system(size: 32))
+                                .fontWeight(.bold)
+                                .padding([.bottom], 2)
+                            
+                            Spacer()
+                            
+                            Image("bookmark")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 40, height: 40)
+                                .padding([.trailing], 20)
+                        }
                         Text("2 Orang")
                             .font(.system(size: 24))
                         Text("Rp 5.000.000,-")
@@ -147,10 +157,20 @@ struct SearchViewiPad: View {
                         .shadow(radius: 1)
                     
                     VStack(alignment: .leading) {
-                        Text("Malang (2 hari 1 malam)")
-                            .font(.system(size: 32))
-                            .fontWeight(.bold)
-                            .padding([.bottom], 2)
+                        HStack {
+                            Text("Malang (2 hari 1 malam)")
+                                .font(.system(size: 32))
+                                .fontWeight(.bold)
+                                .padding([.bottom], 2)
+                            
+                            Spacer()
+                            
+                            Image("bookmark")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 40, height: 40)
+                                .padding([.trailing], 20)
+                        }
                         Text("5 Orang")
                             .font(.system(size: 24))
                         Text("Rp 3.500.000,-")
